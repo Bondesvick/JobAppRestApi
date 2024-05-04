@@ -55,4 +55,13 @@ public class JobRepo {
         return null;
     }
 
+    // method to save a job post object into arrayList
+    public void addJob(JobPost job) {
+//        var jnhj = """
+//                nbhdbvfbvh
+//                """;
+        jobs.add(job);
+
+    }
+
 }
