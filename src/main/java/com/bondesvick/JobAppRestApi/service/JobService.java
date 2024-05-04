@@ -32,4 +32,9 @@ public class JobService {
         repo.updateJob(jobPost);
 
     }
+
+    public void deleteJob(int postId) {
+        repo.deleteJob(postId);
+
+    }
 }
